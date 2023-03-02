@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Light/Dark Mode</title>
+  <link rel="stylesheet" href="./css/colors.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <script text="text/javascript" src="./js/script.js" defer></script>
+</head>
+
+<body>
+  <main id="container">
+    <form id="login-form">
+      <div id="form-header">
+        <h1>Login</h1>
+        <img id="mode-icon" src="./Assets/lua.png" alt="lua">
+      </div>
+      <div id="social-media">
+        <img id="facebook" src="./Assets/facebook.png" alt="facebook">
+        <img id="google" src="./Assets/google.png" alt="google">
+        <img id="github" src="./Assets/github-light-mode.png" alt="github">
+      </div>
+      <div id="inputs">
+        <div class="input-box">
+          <label for="name">
+            Nome
+            <div class="input-field">
+              <img id="name-icon" src="./Assets/usuario-light-mode.png" alt="usuario-light-mode">
+              <input type="text" name="name" id="name">
+            </div>
+          </label>
+        </div>
+        <div class="input-box">
+          <label for="email">
+            E-mail
+            <div class="input-field">
+              <img id="email-icon" src="./Assets/email-light-mode.png" alt="email-light-mode">
+              <input type="email" name="email" id="email">
+            </div>
+          </label>
+        </div>
+        <div class="input-box">
+          <label for="password">
+            Senha
+            <div class="input-field">
+              <img id="password-icon" src="./Assets/senha-light-mode.png" alt="senha-light-mode">
+              <input type="password" name="password" id="password">
+            </div>
+          </label>
+          <div id="forgot-password">
+            <a href="#">
+              Esqueceu a senha?
+            </a>
+          </div>
+        </div>
+      </div>
+      <button id="btn-login">
+        Login
+      </button>
+    </form>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+:root {
+    --background-light: white;
+    --background-dark: #141414;
+    --font: #333131;
+    --line-input: #C4279F;
+    --body-background: linear-gradient(to Right, #FF3EF5, #282FD2);
+    --shadow: #090666;
+}
