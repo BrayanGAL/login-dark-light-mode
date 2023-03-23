@@ -5,6 +5,7 @@ Criei uma layout simples de login apenas para demonstrar o modo light e modo dar
 Criei a estrutura no HTML e a estilização no CSS <br>
 As funções todas foram feitas no JS <br>
 <br>
+##### Para executar o projeto, você deve cloná-lo para sua maquina e executá-lo através do seu editor de código
 Segue algumas imagens de prévia <br>
 <br>
 ![login-dark](https://user-images.githubusercontent.com/117482909/226502112-1e0bdc4e-1a73-44c0-9654-c8107d72a420.png)
